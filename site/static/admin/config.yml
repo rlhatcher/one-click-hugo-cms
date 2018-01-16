@@ -40,7 +40,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: string}
-          - {label: Annual Fees, name: annual fees, widget: object, fields: [{label: Blurb, name: blurb, widget: text}, {label: Fee, name: fee, widget: list, fields: [{label: Type, name: type, widget: string}, {label: cost, name: cost, widget: string]}]}
+          - {label: Annual Fees, name: annual fees, widget: object, fields: [{label: Blurb, name: blurb, widget: text}, {label: Fee, name: fee, widget: list, fields: [{label: Type, name: type, widget: string}, {label: cost, name: cost, widget: string}]}]}
         
   - name: "membership" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Membership" # Used in the UI, ie.: "New Post"
