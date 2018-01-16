@@ -30,6 +30,18 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: string}
           - {label: Directions, name: directions, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Places, name: places, widget: list, fields: [{label: Map, name: map, widget: string}, {label: Text, name: text, widget: text}]}]}
           - {label: Notices, name: notices, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
+      - file: "site/content/membership.md"
+        label: "Membership Page"
+        name: "membership"
+        fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Type, name: type, widget: hidden, default: memebrship}
+          - {label: Page, name: page, widget: hidden, default: "/membership.html"}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Annual Fees, name: annual fees, widget: object, fields: [{label: Blurb, name: blurb, widget: text}, {label: Fee, name: fee, widget: list, fields: [{label: Type, name: type, widget: string}, {label: cost, name: cost, widget: string]}]}
+        
   - name: "membership" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Membership" # Used in the UI, ie.: "New Post"
     folder: "site/content/membership" # The path to the folder where the documents are stored
