@@ -4,19 +4,8 @@ type: launches
 page: /launches.html
 image: /img/products/launches.jpg
 heading: The Site
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+description: Is this used anywhere?
 directions:
-  places:
-    - map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39078.901570229325!2d-0.09952007919680049!3d52.253711705588145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDE1JzQzLjgiTiAwwrAwNycwNS45Ilc!5e0!3m2!1sen!2suk!4v1515657948123 
-      text: > 
-        Our Landowner has decided that he needs to restrict access to motor vehicles on to his land. To do this he will be fitting gates to all the access roads on to the site. These gates will be locked. We will have access to the site through only one of these gates. This will be the access road in the middle of Rogues Lane (previous visitors will know this as the entrance we used to ask people not to use). 
-    - map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19233.168946824175!2d-0.09225921209223169!3d52.2559669196244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDE1JzA0LjEiTiAwwrAwNSczMy43Ilc!5e1!3m2!1sen!2suk!4v1515667285917 
-      text: > 
-        The access tracks are very narrow concrete tracks with deep ditches either side. You CANNOT turn round or pass on them. Please be considerate and allow traffic already on a section of track to proceed towards you. Wait at the right angle corner turns patiently to allow room for traffic to pass. The sections of track are quite long and there are no other passing places than the corners. 
   heading: The Site
   description: >
     EARS currently hold monthly launches on a 1,600 acre farm near the village
@@ -26,6 +15,25 @@ directions:
     There is no on site water. The site is also a working farm and the farmer
     can be spraying his crops or working in fields close to the launch area,
     also launches around harvest can be affected.
+  places:
+    - map: >-
+        https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39078.901570229325!2d-0.09952007919680049!3d52.253711705588145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDE1JzQzLjgiTiAwwrAwNycwNS45Ilc!5e0!3m2!1sen!2suk!4v1515657948123
+      text: >
+        Our Landowner has decided that he needs to restrict access to motor
+        vehicles on to his land. To do this he will be fitting gates to all the
+        access roads on to the site. These gates will be locked. We will have
+        access to the site through only one of these gates. This will be the
+        access road in the middle of Rogues Lane (previous visitors will know
+        this as the entrance we used to ask people not to use). 
+    - map: >-
+        https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19233.168946824175!2d-0.09225921209223169!3d52.2559669196244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDE1JzA0LjEiTiAwwrAwNSczMy43Ilc!5e1!3m2!1sen!2suk!4v1515667285917
+      text: >
+        The access tracks are very narrow concrete tracks with deep ditches
+        either side. You CANNOT turn round or pass on them. Please be
+        considerate and allow traffic already on a section of track to proceed
+        towards you. Wait at the right angle corner turns patiently to allow
+        room for traffic to pass. The sections of track are quite long and there
+        are no other passing places than the corners. 
 notices:
   - author: ''
     quote: >-
@@ -52,3 +60,4 @@ notices:
       to major airports and holding stacks. (one is likely to be situated on top
       of the EARS site.)
 ---
+
