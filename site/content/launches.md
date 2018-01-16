@@ -51,5 +51,4 @@ notices:
       consultation document issued by NATS and the CAA to relocate air corridors
       to major airports and holding stacks. (one is likely to be situated on top
       of the EARS site.)
-full_image: /img/products/products-full-width.jpg
 ---
