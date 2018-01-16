@@ -3,10 +3,10 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
-{{ partial "2-frame" .Params.intro }}
+{{ partial "2-frame" .Params.directions }}
 
 <div class="pb4">
-  {{ range .Params.testimonials }}
+  {{ range .Params.notices }}
     {{ partial "blockquote" . }}
   {{ end }}
 </div>
@@ -20,8 +20,6 @@
   </div>
 </div>
 
-<!-- Image grid -->
-{{ partial "image-grid" . }}
 {{ end }}
 
 <!-- Full-width image -->

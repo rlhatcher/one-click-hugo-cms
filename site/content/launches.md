@@ -1,7 +1,7 @@
 ---
 title: Launches
-type: products
-page: /products.html
+type: launches
+page: /launches.html
 image: /img/products/launches.jpg
 heading: The Site
 description: >-
@@ -9,8 +9,8 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
-intro:
-  blurbs:
+directions:
+  places:
     - map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39078.901570229325!2d-0.09952007919680049!3d52.253711705588145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDE1JzQzLjgiTiAwwrAwNycwNS45Ilc!5e0!3m2!1sen!2suk!4v1515657948123 
       text: > 
         Our Landowner has decided that he needs to restrict access to motor vehicles on to his land. To do this he will be fitting gates to all the access roads on to the site. These gates will be locked. We will have access to the site through only one of these gates. This will be the access road in the middle of Rogues Lane (previous visitors will know this as the entrance we used to ask people not to use). 
@@ -26,23 +26,7 @@ intro:
     There is no on site water. The site is also a working farm and the farmer
     can be spraying his crops or working in fields close to the launch area,
     also launches around harvest can be affected.
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products/products-grid1.jpg
-testimonials:
+notices:
   - author: ''
     quote: >-
       Because safety is our primary concern, all our flying is done in
@@ -69,4 +53,3 @@ testimonials:
       of the EARS site.)
 full_image: /img/products/products-full-width.jpg
 ---
-
